@@ -5,3 +5,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    height: 70px;
+    background-color: aquamarine;
+}
+
+main {
+    height: calc(100vh - 140px);
+    background-color: brown;
+    overflow: auto;
+}
+
+footer {
+    height: 70px;
+    background-color: black;
+}
