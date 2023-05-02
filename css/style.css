@@ -6,18 +6,59 @@
     box-sizing: border-box;
 }
 
+
+/* Generics */
+
+body {
+    font-family: sans-serif;
+}
+
+/* Macrolayout settings */
 header {
+    background-color: black;
     height: 70px;
-    background-color: aquamarine;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
 }
 
 main {
     height: calc(100vh - 140px);
-    background-color: brown;
+    background-color: black;
     overflow: auto;
 }
 
 footer {
     height: 70px;
-    background-color: black;
+    background-color: gray
+}
+
+
+
+/* Utilities */
+
+.flex {
+    display: flex;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/* Header */
+
+.flex-header {
+    justify-content: flex-end;
+}
+
+.disposition-view,
+.expand {
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: rgb(74, 74, 74);
+    padding: 5px 10px;
+    border-radius: 5px;
 }
