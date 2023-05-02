@@ -44,6 +44,8 @@ footer {
 .wrapper {
     width: 1200px;
     margin: 0 auto;
+    gap: 5px;
+    flex-wrap: wrap;
 }
 
 
@@ -61,4 +63,29 @@ footer {
     background-color: rgb(74, 74, 74);
     padding: 5px 10px;
     border-radius: 5px;
+}
+
+/* Main Layout */
+
+.card {
+    display: inline-block;
+    border: 1px solid black;
+    width: calc(100% / 7 - 5px);
+    height: 100px;
+    position: relative;
+}
+
+.card {
+    background-image: url(https://picsum.photos/300/200);
+}
+
+
+.card .microphone {
+    color: white;
+    font-size: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
 }
