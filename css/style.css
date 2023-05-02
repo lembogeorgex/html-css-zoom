@@ -28,12 +28,6 @@ main {
     overflow: auto;
 }
 
-footer {
-    height: 70px;
-    background-color: gray
-}
-
-
 
 /* Utilities */
 
@@ -88,4 +82,17 @@ footer {
     bottom: 0;
     left: 0;
     padding: 5px;
+}
+
+
+/* Footer */
+
+
+footer {
+    height: 70px;
+    background-color: gray
+}
+
+.footer-flex {
+    justify-content: space-between;
 }
